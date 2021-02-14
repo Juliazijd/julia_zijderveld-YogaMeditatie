@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="contact.css" rel="stylesheet" type="text/css" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;700&display=swap"
+    rel="stylesheet">
+    <title>Contact met mij :)</title>
+</head>
+<body>
+        <div class="container">
+            <header class="header">
+                <a href="/index.html">
+                    <img class="logo" src="/images/yin-yang.png" alt="yin-yang" width="60" />
+                    <h2 class="main-header">Yin Yoga & Meditatie</h2>
+                </a>
+            </header>
+            <main class="main-content">
+                <h3>Neem contact op via onderstaand formulier!</h3>
+                <form>
+                    <p>
+                        <label for="firstname surname">Naam: </label><input type="text" name="firstname" placeholder="Voornaam" autofocus="on"/>
+                        <input type="text" name="surname" placeholder="Achternaam" />
+                    </p>
+                    <p>
+                        <label for="dob">Geboortedatum: <input type="date" name="dob"/></label>
+                    </p>
+                    <p>
+                        <label for="email">Emailadres: </label><input type="email" name="email" />
+                    </p>
+                    <p>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Man</label><br>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Vrouw</label><br>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">Anders</label>
+                    </p>
+                    <p>
+                        <textarea name="notes" rows="10" cols="50">Deel hier jouw verhaal, vragen of opmerkingen...</textarea>
+                    </p>
+                    <input type="reset" class="submit-btn" value="Formulier leegmaken" name="reset-btn"/>
+                        of
+                    <input type="submit" class="submit-btn" value="Verzenden!" name="submit-btn" />
+    </form>
+            </main>
+        </div>
+</body>
+</html>
